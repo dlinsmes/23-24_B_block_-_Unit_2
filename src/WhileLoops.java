@@ -78,37 +78,36 @@ public class WhileLoops {
         System.out.println("enter quit to stop");
 
         Scanner s = new Scanner(System.in);
-        String input;
 
-//        String input = s.nextLine();
-//        //when the user types something besides quit, keep looping
-//        //the prompt
-//        while (!input.equals("quit")) {
-//            System.out.println("enter quit to stop");
-//            input = s.nextLine();
-//
-//            //increment the count each time the prompt is re-asked
-//            count++;
-//        }
-//
-//        System.out.println("the prompt was printed " + count + " times");
-//
-//        System.out.println("please enter a number: 1, 2, or 3: ");
-//        int num = s.nextInt();
-//        //validation loop - keep asking until the user enters a valid input
-//
-//        //for the loop condition, check whether the input is INVALID to go into the loop
-//        //(num != 1 && num != 2 && num != 3)
-//        // !(num >= 1 && num <= 3)
-//        while (num < 1 || num > 3) {
-//            System.out.println("invalid number");
-//            System.out.println("please enter a number: 1, 2, or 3: ");
-//            num = s.nextInt();
-//        }
-//
-//        System.out.println("good job");
-//
-//        s.nextLine();
+        String input = s.nextLine();
+        //when the user types something besides quit, keep looping
+        //the prompt
+        while (!input.equals("quit")) {
+            System.out.println("enter quit to stop");
+            input = s.nextLine();
+
+            //increment the count each time the prompt is re-asked
+            count++;
+        }
+
+        System.out.println("the prompt was printed " + count + " times");
+
+        System.out.println("please enter a number: 1, 2, or 3: ");
+        int num = s.nextInt();
+        //validation loop - keep asking until the user enters a valid input
+
+        //for the loop condition, check whether the input is INVALID to go into the loop
+        //(num != 1 && num != 2 && num != 3)
+        // !(num >= 1 && num <= 3)
+        while (num < 1 || num > 3) {
+            System.out.println("invalid number");
+            System.out.println("please enter a number: 1, 2, or 3: ");
+            num = s.nextInt();
+        }
+
+        System.out.println("good job");
+
+        s.nextLine();
 
         System.out.println("enter yes");
         input = s.nextLine();
