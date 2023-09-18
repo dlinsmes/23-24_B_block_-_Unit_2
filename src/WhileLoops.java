@@ -125,7 +125,7 @@ public class WhileLoops {
 
         }
 
-        //cane simplified to:
+        //can be simplified to:
 
         System.out.println("enter yes");
         input = s.nextLine();
