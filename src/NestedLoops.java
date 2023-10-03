@@ -57,10 +57,17 @@ public class NestedLoops {
             System.out.println();
         }
 
+        //pyramid problem: generate the same thing but with an
+        //incrementing outer loop to figure out spacing of centered pyramid
         for (int i = 0; i < 10; i++) {
 
-//            for (int j =)
+            for (int j = 10; j > i; j--) {
+                System.out.print("/");
+            }
 
+            //Xs for pyramid go here in another second-level  for loop
+
+            System.out.println();
         }
     }
 }
